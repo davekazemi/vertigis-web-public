@@ -1,0 +1,66 @@
+/* ImageSlider.css */
+
+.image-slider-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 100% !important;
+}
+
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.slide-title {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.slider-image {
+    max-width: 100%;
+    max-height: calc(100% - 40px); /* Adjust based on your title's size */
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* Ensure navigation buttons are visible */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+/* Ensure pagination is visible */
+.swiper-pagination-bullet {
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}

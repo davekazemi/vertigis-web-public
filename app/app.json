@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "1.0",
+  "items": [
+      {
+          "id": "iframe-config",
+          "$type": "iframe-model",
+          "initialUrl": "https://www.example.com"
+      }
+  ]
+}

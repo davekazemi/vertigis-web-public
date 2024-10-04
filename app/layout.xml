@@ -1,0 +1,3 @@
+<layout xmlns="https://geocortex.com/layout/v1" xmlns:custom="your.custom.namespace">
+    <custom:iframe id="my-iframe" config="iframe-config" />
+</layout>
